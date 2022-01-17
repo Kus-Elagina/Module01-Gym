@@ -1,0 +1,63 @@
+/* -----HEADER----- */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    max-width: 1141px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.header {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 55px;
+    padding-bottom: 27px;
+}
+.header-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-basis: 57.5%;
+}
+.header-logo {
+    display: block;
+    background-image: url(../images/logo.svg);
+    width: 97px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-nav {
+    list-style-type: none;
+    display: flex;
+    padding-left: 0;
+    gap: 54px
+}
+.header-nav a {
+    font-size: 18px;
+    color: #2B3541;
+    text-decoration: none;
+}
+.social-media{
+    display: flex;
+    gap: 30px
+}
+.header-inst {
+    display: block;
+    background-image: url(../images/inst-logo.svg);
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-fb {
+    display: block;
+    background-image: url(../images/fb-logo.svg);
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
