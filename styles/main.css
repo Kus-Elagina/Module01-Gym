@@ -1,8 +1,10 @@
 /* -----HEADER----- */
 body {
     font-family: 'Montserrat', sans-serif;
+    color: #2B3541;
 }
 .container{
+    position: relative;
     max-width: 1141px;
     margin: 0 auto;
     padding-left: 15px;
@@ -13,8 +15,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 55px;
-    padding-bottom: 27px;
+    padding-top: 50px;
+    margin-bottom: 27px;
 }
 .header-item {
     display: flex;
@@ -38,7 +40,6 @@ body {
 }
 .header-nav a {
     font-size: 18px;
-    color: #2B3541;
     text-decoration: none;
 }
 .social-media{
@@ -60,4 +61,81 @@ body {
     height: 30px;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.banner-box {
+    max-width: 676px;
+    padding-top: 185px;
+    margin-bottom: 238px;
+}
+.banner-title {
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    margin-bottom: 20px;
+}
+.banner-title-text {
+    display: block;
+    font-size: 40px;
+    padding-top: 42px;
+    text-transform: none;
+    font-weight: 400;
+    line-height: 125%;
+}
+.banner-item {
+    margin-left: 92px;
+}
+.banner-text {
+    font-size: 18px;
+    line-height: 1.5;
+    width: 295px;
+    margin-bottom: 59px;
+}
+.banner-link {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    background: #FBF138;
+    padding: 22px 29px
+}
+.visual {
+    position: absolute;
+    top: 0;
+    display: flex;
+    gap: 20px;
+    max-width: 790px;
+    width: 100%;
+    z-index: -1;
+    right: -62px;
+}
+.visual-gradient-left {
+    background: linear-gradient(90deg, #FBF138 0%, rgba(253, 249, 182, 0.45) 145.23%);
+    opacity: 0.2;
+    flex-basis: 70%;
+    height: 838px;
+}
+.visual-gradient-right {
+    background: linear-gradient(90deg, #FBF138 0%, rgba(253, 249, 182, 0.45) 145.23%);
+    opacity: 0.2;
+    flex-basis: 30%;
+    height: 838px;
+}
+.visual-image {
+    top: 0;
+    position: absolute;
+    height: 838px;
+    width: 51vw;
+    right: -96px;
+}
+.banner-arrow {
+    margin-top: 203px;
+}
+.arrow {
+    position: absolute;
+    width: 52px;
+    height: 55px;
 }
