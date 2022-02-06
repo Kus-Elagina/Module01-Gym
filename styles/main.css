@@ -418,7 +418,7 @@ body {
  }
 
 
- .grid-box-1 {
+ .grid-box {
     height: 400px;
     margin-top: 0;
     display: flex;
@@ -436,7 +436,7 @@ body {
     position: absolute;
     opacity: 0;
  }
- .grid-box-1:hover .box-hidden {
+ .grid-box:hover .box-hidden {
     position: relative;
     opacity: 1;
     margin-top: 0;
