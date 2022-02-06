@@ -403,6 +403,11 @@ body {
     flex-direction: column;
     justify-content: end;
  }
+ .grid-item:hover {
+    background: rgba(243, 243, 243, 0.5);
+    box-shadow: 0px 4px 30px rgba(43, 53, 65, 0.2);
+    border: none;
+ }
  .grid-date {
     font-size: 18px;
     line-height: 150%;
