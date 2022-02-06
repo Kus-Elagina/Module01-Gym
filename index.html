@@ -13,7 +13,8 @@
     <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
-    <!--------------------HEADER-------------------->
+
+    <!---------------HEADER--------------->
     <header>
         <div class="container">
             <div class="header">
@@ -34,8 +35,9 @@
             </div>
         </div>
     </header> 
+
     <main>
-    <!--------------------BANNER-------------------->
+    <!---------------BANNER--------------->
         <div class="banner">
             <div class="container">
                 <div class="banner-box">
@@ -50,9 +52,7 @@
                         <a href="#" class="banner-link">Узнать подробнее</a>   
                     </div>
                     <div class="banner-arrow">
-                        <a href="#" class="transform-arrow">
-                            <img class="arrow" src="images/arrow.png" alt="">
-                        </a>
+                        <a href="#menuEvents" class="arrow"></a>
                     </div>
                 </div>
                 <div class="visual">
@@ -62,19 +62,193 @@
                 </div>
             </div>
         </div>
-    <!----------------UPCOMING EVENTS---------------->
-        <section class="events">
+
+    <!-----------UPCOMING EVENTS----------->
+        <section class="events" id="menuEvents">
             <div class="container">
                 <div class="events-title">
                     <h2>Ближайшие события</h2>
-                </div class="events-flex">
-                <div class="events-menu">
-                    <div class="events-1"></div>
-                    <div class="events-2"></div>
-                    <div class="events-3"></div>
+                </div>
+                <div class="events-flex">
+                    <div class="events-item-1">
+                        <div class="events-gradient-1">
+                            <p class="date-1">29.06&nbsp-&nbsp4.07</p>
+                            <h3 class="event-1">Марафон выносливости</h3>
+                            <p class="type-1">марафон</p>
+                            <a href="#" class="event-btn-1">Участвовать</a>
+                        </div>
+                    </div>
+                    <div class="events-item-2">
+                        <div class="events-gradient-2">
+                            <p class="date-2">9.07</p>
+                            <h3 class="event-2">Как стать<br>тренером?</h3>
+                            <p class="type-2">вебинар</p>
+                            <a href="#" class="event-btn-2">Участвовать</a>
+                        </div>
+                    </div>
+                    <div class="events-item-3">
+                        <div class="events-gradient-3">
+                            <p class="date-3">15.09</p>
+                            <h3 class="event-3">Йога, как стиль жизни</h3>
+                            <p class="type-3">вебинар</p>
+                            <a href="#" class="event-btn-3">Участвовать</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
+
+    <!---------------SCHEDULE--------------->
+        <section class="training">
+            <div class="container">
+                <div class="training-header">
+                    <h2>Расписание<br>тренировок</h2>
+                    <span>22 - 28 июня</span>
+                </div>
+                <div class="training-box">
+                    <div class="grid-item">
+                        <p class="grid-date">22 июня, 10:00</p>
+                        <img class="body" src="images/body.svg" alt="">
+                        <p class="description">Функциональный тренинг</p> 
+                        <p class="training-description">Гармонично развивает физические качества</p>
+                    </div>
+                    <div class="grid-item">
+                        <p class="grid-date">24 июня, 10:00</p>
+                        <img class="bottle" src="images/bottle.svg" alt="">
+                        <p class="description">Body sculpt</p>
+                    </div>
+                    <div class="grid-item">
+                        <p class="grid-date">26 июня, 11:00</p>
+                        <img class="dumb" src="images/dumb.svg" alt="">
+                        <p class="description">L.A.B.</p>
+                    </div>
+                    <div class="grid-item">
+                        <p class="grid-date">23 июня, 10:00</p>
+                        <img class="jump" src="images/jump.svg" alt="">
+                        <p class="description">Силовой микс</p>
+                        <p class="jump-description">Упражнения помогут создать красивый рельеф и прийти в спортивную форму.</p>
+                    </div>
+                    <div class="grid-item">
+                        <p class="grid-date">25 июня, 11:00</p>
+                        <img class="heart" src="images/heart.svg" alt="">
+                        <p class="description">Дыхательные практики</p>
+                    </div>
+                    <div class="grid-item">
+                        <p class="grid-date">27 июня, 10:00</p>
+                        <img class="weight" src="images/weight.svg" alt="">
+                        <p class="description">Комплексная разминка</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!--------------SUBSCRIBE-------------->
+        <div class="subscribe">
+            <div class="container">
+                <div class="subscribe-box">
+                    <div class="subscribe-header">
+                        <h3 class="subscribe-title"> 
+                            Подпишитесь на рассылку
+                        </h3>
+                    </div>
+                    <form class="email-form" action="">
+                        <input class="email-input" type="email" placeholder="Ваш e-mail">
+                        <button class="submit-btn" type="submit">Подписаться</button>
+                    </form>
+                    <div class="agreement">
+                        <input type="checkbox" id="01" class="checkbox">
+                        <label for="01"><span class="agreement-title">Согласен с обработкой <a href="#" target="_blank">персональных данных</a></span></label>  
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-------------ABOUT COMPANY------------->
+        <section class="about-company">
+            <div class="container">
+                <div class="company-box">
+                    <div class="comp-info">
+                        <h1 class="comp-title">О компании</h1>
+                        <p class="comp-description">
+                            Наша компания является одной из немногих, кто предлагает фитнес услуги онлайн! Оставайтесь с&nbsp;нами и вы сами увидите, что мы проводим не&nbsp;только онлайн-тренировки.
+                        </p>
+                        <a  class="comp-btn" href="">Записаться</a>
+                    </div>
+                    <div class="comp-cover">
+                        <div class="comp-cover-gradient"></div>
+                    </div>
+                </div>
+                <div class="company-items">
+                    <div class="comp-item-1">
+                        <h3 class="company-header">Экономия времени</h3>
+                        <p class="item-info">Не нужно тратить время на дорогу</p>
+                    </div>
+                    <div class="comp-item-2">
+                        <h3 class="company-header">Индивидуальный подход</h3>
+                        <p class="item-info">Внимание тренера пренадлежит только вам</p>
+                    </div>
+                    <div class="comp-item-3">
+                        <h3 class="company-header">Экономия денег</h3>
+                        <p class="item-info">Средняя цена одной тренировки - 700₽</p>
+                    </div>
+                    <div class="comp-item-4">
+                        <h3 class="company-header">Опытный персонал</h3>
+                        <p class="item-info">Стаж работы у наших тренеров от 5 лет</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-----------------FOOTER----------------->
+        <footer class="footer-box">
+            <div class="container">
+                <div class="footer">
+                    <div class="footer-item">
+                        <a href="#" class="footer-logo"></a>
+                        <nav>
+                            <ul class="footer-nav">
+                                <li><a href="#">Мероприятия</a></li>
+                                <li><a href="#">Расписание</a></li>
+                                <li><a href="#">О компании</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="footer-contacts">
+                        <a class="footer-email" href="mailto:info@freefit.com">info@freefit.com</a>
+                        <div class="footer-social-media">
+                            <a href="#" class="footer-inst"></a>
+                            <a href="#" class="footer-fb"></a>  
+                        </div> 
+                    </div>
+               </div>
+               <div class="law">
+                <span class="law-protection">&copy; 2020, Все права защищены</span>
+                <div>
+                    <p class="law-text">Сделано в рамках курса учебной платформы</p>
+                    <a class="law-link" href="">Annblok</a>
+                </div>
+            </div>
+            </div>
+        </footer>
     </main>
+    <script>
+
+        // Smooth Scroll
+
+    const links = document.querySelectorAll(".arrow");
+
+    for (const link of links) {
+        link.addEventListener("click", clickHandler);
+    }
+
+    function clickHandler(e) {
+        e.preventDefault();
+        const href = this.getAttribute("href");
+
+        document.querySelector(href).scrollIntoView({
+        behavior: "smooth"
+    });
+    }   
+    </script>
 </body>
 </html>
